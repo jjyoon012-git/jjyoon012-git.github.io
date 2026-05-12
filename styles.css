@@ -765,10 +765,37 @@ time {
 }
 
 .global-list li > div {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
   border: 1px solid var(--line);
   border-radius: 6px;
   background: #fff;
   padding: 14px 16px;
+}
+
+.global-copy {
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 650px;
+}
+
+.global-logo {
+  display: block;
+  width: 84px;
+  max-width: 100%;
+  max-height: 62px;
+  object-fit: contain;
+}
+
+.global-logo.seal {
+  width: 62px;
+  max-height: 62px;
+}
+
+.global-logo.wide {
+  width: 116px;
 }
 
 .global-list h3 {
@@ -1051,6 +1078,14 @@ time {
     width: 28px;
     height: 28px;
     font-size: 12px;
+  }
+
+  .global-list li > div {
+    display: block;
+  }
+
+  .global-logo {
+    margin-top: 4px;
   }
 
   .hobby-grid {
