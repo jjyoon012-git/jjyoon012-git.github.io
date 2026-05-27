@@ -2,12 +2,6 @@ const searchPanel = document.querySelector("#site-search");
 const searchToggle = document.querySelector(".search-toggle");
 const searchInput = document.querySelector("#search-input");
 const searchResults = document.querySelector("#search-results");
-const emailLink = document.querySelector(".email-link");
-
-if (emailLink) {
-  const address = `${emailLink.dataset.user}@${emailLink.dataset.domain}`;
-  emailLink.href = `mailto:${address}`;
-}
 
 const searchableItems = Array.from(
   document.querySelectorAll("section, .project-card, .research-item, .award-row, .global-list li")
