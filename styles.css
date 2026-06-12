@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --text: #222;
   --muted: #666;
   --faint: #888;
@@ -340,7 +340,7 @@ mark {
 
 .news-link::after {
   color: var(--link);
-  content: " ↗";
+  content: " ->";
   font-size: 12px;
   font-weight: 700;
 }
@@ -580,6 +580,10 @@ time {
   letter-spacing: 0;
   padding-right: 7px;
   text-transform: uppercase;
+}
+
+.project-links a.external-link::before {
+  content: "Link";
 }
 
 .project-links a:hover {
