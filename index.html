@@ -215,8 +215,18 @@
                   The system combines real-time sensing, <mark>personalized World Model</mark> reasoning,
                   <mark>AI emergency response</mark>, and natural-language daily reports for guardians.
                 </p>
+                <p>
+                  I recently added a <mark>CSI-to-Pose pilot</mark> that pairs ESP32 WiFi CSI
+                  with training-only video pose labels, then trains a CSI-only student model
+                  to reconstruct a <mark>13-point 3D skeleton proxy</mark>. The first pilot
+                  uses an unstable-walking dataset to test whether CSI can recover body-center,
+                  torso, knee, and limb-motion trends without using video at inference time.
+                </p>
                 <ul class="stack">
                   <li>WiFi CSI</li>
+                  <li>CSI-to-Pose</li>
+                  <li>MediaPipe</li>
+                  <li>TCN</li>
                   <li>1D-CNN / GRU</li>
                   <li>World Model</li>
                   <li>LangGraph</li>
@@ -224,7 +234,20 @@
                 </ul>
                 <p class="project-links">
                   <a class="external-link" href="https://ictcoc.kr/news/news_view.asp?idx=1287&page=1&params=">Program Notice</a>
+                  <a href="https://github.com/jjyoon012-git/NotiFi">Repository</a>
                 </p>
+                <div class="media-block">
+                  <h4>CSI-to-Pose Pilot</h4>
+                  <div class="gallery single">
+                    <img src="assets/projects/notifi/csi-to-pose-unstable-walking.gif" alt="NotiFi CSI-to-Pose unstable walking skeleton proxy reconstruction" />
+                  </div>
+                </div>
+                <div class="media-block">
+                  <h4>Architecture</h4>
+                  <div class="gallery single">
+                    <img src="assets/projects/notifi/csi-to-pose-overview.png" alt="NotiFi CSI-to-Pose architecture diagram" />
+                  </div>
+                </div>
               </div>
             </details>
           </li>
