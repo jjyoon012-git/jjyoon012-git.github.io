@@ -1,25 +1,30 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jeong-Ah Yoon</title>
+    <meta name="theme-color" content="#ffffff" />
+    <title>Jeong-Ah Yoon · AI Research Engineer</title>
     <meta
       name="description"
-      content="Jeong-Ah Yoon, AI Computer Science and Engineering undergraduate focused on multimodal medical AI and deployable AI systems."
+      content="Jeong-Ah Yoon is an AI research engineer focused on Vision AI, data curation, generative data evaluation, multimodal and video understanding, and emerging 3D vision."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
     <header class="topbar">
-      <a class="site-title" href="#top">Jeong-Ah Yoon</a>
+      <a class="site-title" href="#top" aria-label="Jeong-Ah Yoon, home">
+        <span>Jeong-Ah Yoon</span>
+      </a>
       <nav aria-label="Primary navigation">
-        <a href="#news">news</a>
-        <a href="#research">research</a>
-        <a href="#projects">projects</a>
-        <a href="#awards">awards</a>
-        <a href="#global">global experience</a>
-        <a href="#ai-recommender">AI recommender</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#awards">Awards</a>
+        <a href="#interests">Interests</a>
+        <a href="https://github.com/jjyoon012-git" target="_blank" rel="noreferrer">GitHub ↗</a>
       </nav>
       <button class="search-toggle" type="button" aria-label="Open search" aria-controls="site-search">
         <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -29,974 +34,304 @@
       </button>
     </header>
 
-    <main id="top" class="page">
-      <section class="intro">
+    <main id="main-content" class="page">
+      <section id="top" class="intro" aria-labelledby="intro-title">
         <div class="intro-text">
-          <h1>Jeong-Ah Yoon</h1>
-          <p class="roleline">Undergraduate AI Researcher, KGU</p>
+          <p class="eyebrow">Vision · Data · Evaluation</p>
+          <h1 id="intro-title">Jeong-Ah Yoon</h1>
+          <p class="roleline">AI Research Engineer · Vision AI</p>
           <p class="subtitle">
-            AI Research Engineer focused on Medical Vision AI, Multimodal Learning, and
-            Real-world AI Products.
+            AI Research Engineer focused on Vision AI, Generative Data Evaluation,
+            Multimodal Learning, and 3D Vision.
           </p>
-          <p>
-            I am a fourth-year AI major at Kyonggi University with experience in
-            <mark>medical vision AI research</mark>, <mark>multimodal learning</mark>, and
-            <mark>real-world AI product development</mark>.
-          </p>
-          <p>
-            My work focuses on building AI systems that connect research ideas, data, and
-            practical applications. I have worked on <mark>breast Doppler ultrasound
-            classification</mark>, <mark>multimodal AI-generated content detection</mark>, and
-            <mark>cloud-based machine learning pipelines</mark>.
-          </p>
-          <p>
-            I am especially interested in <mark>medical image analysis</mark>,
-            <mark>vision-language models</mark>, <mark>explainable AI</mark>, and reliable AI
-            systems that can support decision-making in real-world domains.
-          </p>
+          <div class="intro-summary">
+            <p>I work at the intersection of vision AI, data, and evaluation.</p>
+            <p>
+              My work focuses on how training data should be constructed, how generated
+              outputs can be evaluated reliably, and how visual understanding can extend
+              from images to video and 3D human understanding.
+            </p>
+          </div>
           <p class="keywords">
-            Medical Vision AI · Multimodal Learning · MLLM-assisted Systems · Explainable AI ·
-            Real-world AI Products · Cloud ML
+            Vision AI · Data Curation · Generative AI Evaluation · Multimodal AI ·
+            Video Understanding · 3D Vision
           </p>
           <p class="links">
-            <a href="https://github.com/jjyoon012-git">GitHub</a>
-            <span>/</span>
-            <a href="https://jeongahyoon.streamlit.app/">Portfolio</a>
+            <a class="primary-link" href="#research">View Research</a>
+            <a href="#projects">Selected Projects</a>
+            <a href="https://github.com/jjyoon012-git" target="_blank" rel="noreferrer">GitHub ↗</a>
           </p>
         </div>
-        <img
-          class="profile-image"
-          src="assets/profile-me.jpg"
-          alt="Jeong-Ah Yoon profile"
-        />
       </section>
 
-      <section id="news" class="section">
-        <h2>News</h2>
-        <ul class="news-list">
-          <li>
-            <time>Jun 2026</time>
-            <span>
-              Received the KIIT Excellent Paper Award for
-              <em>Multimodal AI Consistency-based Content Verification System</em>.
-            </span>
-          </li>
-          <li>
-            <time>Jun 2026</time>
-            <span>Won the 2026 Advanced Capstone Design Excellence Award with I See You.</span>
-          </li>
-          <li>
-            <time>May 2026</time>
-            <span>Selected as a 2026-1 Kyonggi CEO Forum Scholar.</span>
-          </li>
-          <li>
-            <time>May 2026</time>
-            <a class="news-link" href="https://thon.khlug.org/about/2026" target="_blank" rel="noreferrer">
-              Received the Excellence Award at khuthon 2026 with TrenDo.
-            </a>
-          </li>
-          <li>
-            <time>Jan 2026</time>
-            <a class="news-link" href="https://www.youtube.com/shorts/GpeTxVVRZ6U" target="_blank" rel="noreferrer">
-              Selected as an IITP Digital Young Talent representative.
-            </a>
-          </li>
-          <li>
-            <time>Oct 2025</time>
-            <a class="news-link" href="https://www.veritas-a.com/news/articleView.html?idxno=578950" target="_blank" rel="noreferrer">
-              Grand Prize for DiNuri, an AI-based senior document assistance service.
-            </a>
-          </li>
-        </ul>
+      <section class="positioning-strip" aria-label="Research experience flow">
+        <span>Data Collection &amp; Curation</span><i>→</i>
+        <span>Generative Data</span><i>→</i>
+        <span>Evaluation</span><i>→</i>
+        <span>Video / Multimodal</span><i>→</i>
+        <span>3D Human Understanding</span>
       </section>
 
       <section id="research" class="section">
-        <h2>Research</h2>
+        <div class="section-heading">
+          <div><p class="section-index">01</p><h2>Research</h2></div>
+          <p>Data construction, multimodal learning, generation, and task-specific evaluation.</p>
+        </div>
 
-        <article class="research-item research-with-logo">
-          <img class="research-logo" src="assets/projects/acs_logo.png" alt="ACS Lab logo" />
-          <div>
-            <h3>Synthetic Modality Fusion in Breast Doppler Ultrasound, ACS Lab</h3>
-            <p class="meta">
-              Research Student, Kyonggi University ACS Lab, May 2025 - May 2026
-            </p>
+        <article class="research-case research-primary">
+          <header class="case-header">
+            <img class="research-logo" src="assets/projects/acs_logo.png" alt="ACS Lab logo" width="72" height="72" />
+            <div>
+              <p class="case-label">Primary Research Case</p>
+              <h3>Synthetic Modality Fusion in Breast Doppler Ultrasound</h3>
+              <p class="meta">Research Student · Kyonggi University ACS Lab · May 2025 – May 2026</p>
+            </div>
+          </header>
+          <div class="case-overview">
+            <h4>Overview</h4>
             <p>
-              My ACS Lab research focuses on <mark>multimodal medical image analysis</mark> for
-              breast ultrasound. The central question is how a model can learn the relationship
-              between <mark>tumor structure in B-mode ultrasound</mark> and <mark>vascular flow
-              patterns in Doppler ultrasound</mark> through <mark>B-mode/Doppler fusion</mark>,
-              especially when reliable pixel-level annotations are limited.
-            </p>
-            <ul>
-              <li>
-                Built and compared pair-based classification pipelines: <mark>Doppler-only
-                baseline</mark>, input-level early fusion, <mark>two-stream feature fusion</mark>,
-                one-way and bi-directional <mark>cross-attention</mark>, and gated fusion.
-              </li>
-              <li>
-                Used <mark>ConvNeXt/ConvNeXtV2</mark> backbones with stratified cross-validation,
-                weighted cross entropy, ensemble testing, and metric analysis for Type 1/2/3
-                ultrasound classification.
-              </li>
-              <li>
-                Designed <mark>tumor-flow interaction features</mark> using HSV-based Doppler
-                flow masks, pseudo tumor masks, Grad-CAM, CAM2SAM, MedSAM, and relation maps
-                such as intratumoral and peritumoral flow.
-              </li>
-              <li>
-                Explored <mark>generative data construction</mark> with RePaint, LaMa,
-                GPT-Image-1, Imagen, and Stable Diffusion to synthesize or restore ultrasound
-                modalities while checking whether synthetic images are useful for downstream
-                diagnosis.
-              </li>
-              <li>
-                Evaluated synthetic Doppler realism with <mark>MLLM-as-a-Judge</mark> and
-                <mark>VLM evaluation</mark> using models such as MedGemma and Qwen2.5-VL, and
-                refined prompts through K-Means clustering of real Doppler morphology.
-              </li>
-              <li>
-                Analyzed failure cases caused by <mark>class imbalance</mark> and <mark>modality
-                conflict</mark>, then revised data construction, input design, and learning
-                strategy to stabilize model behavior.
-              </li>
-            </ul>
-            <p>
-              In short, this work is not just medical image classification. It is a
-              <mark>reliable multimodal AI</mark> problem: deciding which modality carries useful
-              clinical signal, how to fuse it, and how to keep generated medical images from
-              contaminating the learned representation.
+              Studied how B-mode structural information and Doppler flow information should
+              be constructed and fused for reliable breast ultrasound classification under
+              limited annotations and class imbalance.
             </p>
           </div>
+          <div class="research-pipeline" aria-label="ACS research workflow">
+            <span>Preprocessing</span><i>→</i><span>Input Construction</span><i>→</i>
+            <span>Model Training</span><i>→</i><span>Synthetic Data</span><i>→</i>
+            <span>Evaluation</span><i>→</i><span>Failure Analysis</span>
+          </div>
+          <div class="case-grid">
+            <div>
+              <h4>My Role</h4>
+              <ul class="role-list">
+                <li>Built B-mode/Doppler preprocessing and paired-input pipelines.</li>
+                <li>Compared Doppler-only, early fusion, two-stream fusion, cross-attention, and gated fusion architectures.</li>
+                <li>Used ConvNeXt/ConvNeXtV2 with weighted loss, cross-validation, and ensemble evaluation.</li>
+                <li>Designed tumor-flow interaction features with Doppler flow masks, pseudo tumor masks, Grad-CAM, CAM2SAM, MedSAM, and relation maps.</li>
+                <li>Generated or restored synthetic modalities using RePaint, LaMa, GPT-Image-1, Imagen, Stable Diffusion, and related tools.</li>
+                <li>Evaluated synthetic data through downstream classification and VLM/MLLM-based assessment, including MedGemma and Qwen2.5-VL, with prompt refinement informed by K-Means clustering of real Doppler morphology.</li>
+                <li>Analyzed class imbalance, modality conflict, and failure cases to refine data construction and input design.</li>
+              </ul>
+            </div>
+            <blockquote>
+              <span>What I Learned</span>
+              A visually realistic synthetic image is not necessarily useful training data.
+              I learned to evaluate generated data not only by visual quality, but also by
+              its effect on downstream model behavior and task-specific utility.
+            </blockquote>
+          </div>
+          <ul class="stack" aria-label="ACS Lab technologies">
+            <li>PyTorch</li><li>ConvNeXt / ConvNeXtV2</li><li>Multimodal Fusion</li>
+            <li>RePaint / LaMa</li><li>Stable Diffusion</li><li>VLM / MLLM Evaluation</li>
+          </ul>
         </article>
 
-        <article class="research-item research-with-logo">
-          <img class="research-logo" src="assets/projects/pathobrainseq_logo.jpg" alt="PathoBrainSeq logo" />
+        <article class="research-case research-secondary">
+          <img class="research-logo" src="assets/projects/pathobrainseq_logo.jpg" alt="PathoBrainSeq logo" width="64" height="64" loading="lazy" />
           <div>
+            <p class="case-label">Biomedical Data Research</p>
             <h3>PathoBrainSeq: Multi-omics AI for Dementia Prediction</h3>
-            <p class="meta">Research Intern, PathoBrainSeq, Jan 2026 - Mar 2026</p>
+            <p class="meta">Research Intern · Jan 2026 – Mar 2026</p>
             <p>
-              I worked on <mark>AI-based dementia prediction</mark> using <mark>RNA and DNA
-              multi-omics data</mark>. This internship expanded my research scope from visual
-              medical AI to <mark>multi-omics AI</mark> and <mark>biomedical modeling</mark>,
-              where the main challenge is learning robust disease signals from
-              <mark>high-dimensional molecular features</mark>.
+              Worked with RNA and DNA multi-omics data for AI-based dementia prediction,
+              focusing on preprocessing, feature construction, evaluation workflow, and
+              robust learning from high-dimensional biomedical features.
             </p>
+            <ul class="stack"><li>RNA / DNA</li><li>Preprocessing</li><li>Feature Construction</li><li>Evaluation</li></ul>
           </div>
         </article>
+      </section>
+
+      <section id="interests" class="section interests-section">
+        <div class="section-heading">
+          <div><p class="section-index">02</p><h2>Research Interests</h2></div>
+          <p>Extending reliable visual evaluation from images toward time, people, and space.</p>
+        </div>
+        <ol class="interest-list">
+          <li class="interest-primary"><span>01</span><div><h3>3D/4D Vision &amp; Spatial Intelligence</h3><p>3D reconstruction, human understanding, spatial perception, and digital twins.</p></div></li>
+          <li class="interest-primary"><span>02</span><div><h3>Video Generation &amp; Evaluation</h3><p>Video generation, temporal consistency, and scalable evaluation of generated visual sequences.</p></div></li>
+          <li class="interest-primary"><span>03</span><div><h3>Reliable Multimodal AI</h3><p>VLM/MLLM evaluation, multimodal consistency, explainability, and evidence-based judgment.</p></div></li>
+          <li><span>04</span><div><h3>Voice-based Multimodal AI</h3><p>Voice synthesis and systems that combine audio, text, and visual context.</p></div></li>
+          <li><span>05</span><div><h3>Neuroscience × AI</h3><p>Learning, uncertainty, and decision-making inspired by neuroscience and computational cognition.</p></div></li>
+        </ol>
       </section>
 
       <section id="projects" class="section">
-        <h2>Projects</h2>
-        <p class="section-note">
-          Projects are organized in reverse chronological order. Each item highlights the
-          problem, my role, and the core technical stack.
-        </p>
-
-        <ol class="timeline project-timeline">
-          <li class="current">
-            <div class="timeline-meta">
-              <time>Jun 2026 - Present</time>
-            </div>
-            <details class="project-card">
-              <summary>
-                <div>
-                  <h3>NotiFi</h3>
-                  <small>WiFi CSI-based non-contact silver-care emergency monitoring system</small>
-                </div>
-              </summary>
-              <div class="project-detail">
-                <p>
-                  NotiFi is a <mark>non-contact silver-care AI system</mark> that detects
-                  falls, abnormal breathing, inactivity, and early risk patterns using
-                  <mark>WiFi CSI signal analysis</mark> instead of cameras or wearables.
-                  The project is being developed as a finalist project in the
-                  <mark>16th ICT Complex Global PIUDA Project, 2026</mark>, an ICT solution
-                  program for Korea-Japan elderly care challenges.
-                  The system combines real-time sensing, <mark>personalized World Model</mark> reasoning,
-                  <mark>AI emergency response</mark>, and natural-language daily reports for guardians.
-                </p>
-                <p>
-                  I recently added a <mark>CSI-to-Pose pilot</mark> that pairs ESP32 WiFi CSI
-                  with training-only video pose labels, then trains a CSI-only student model
-                  to reconstruct a <mark>13-point 3D skeleton proxy</mark>. The first pilot
-                  uses an unstable-walking dataset to test whether CSI can recover body-center,
-                  torso, knee, and limb-motion trends without using video at inference time.
-                </p>
-                <ul class="stack">
-                  <li>WiFi CSI</li>
-                  <li>CSI-to-Pose</li>
-                  <li>MediaPipe</li>
-                  <li>TCN</li>
-                  <li>1D-CNN / GRU</li>
-                  <li>World Model</li>
-                  <li>LangGraph</li>
-                  <li>LLM Report</li>
-                </ul>
-                <p class="project-links">
-                  <a class="external-link" href="https://ictcoc.kr/news/news_view.asp?idx=1287&page=1&params=">Program Notice</a>
-                  <a href="https://github.com/jjyoon012-git/NotiFi">Repository</a>
-                </p>
-                <div class="media-block">
-                  <h4>CSI-to-Pose Pilot</h4>
-                  <div class="gallery single">
-                    <img src="assets/projects/notifi/csi-to-pose-unstable-walking.gif" alt="NotiFi CSI-to-Pose unstable walking skeleton proxy reconstruction" />
-                  </div>
-                </div>
-                <div class="media-block">
-                  <h4>Architecture</h4>
-                  <div class="gallery single">
-                    <img src="assets/projects/notifi/csi-to-pose-overview.png" alt="NotiFi CSI-to-Pose architecture diagram" />
-                  </div>
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <li>
-            <div class="timeline-meta">
-              <time>May 2026</time>
-              <img class="project-thumb" src="assets/projects/trendo/trendo-main.png" alt="TrenDo representative image" />
-            </div>
-            <details class="project-card">
-              <summary>
-                <div>
-                  <h3>TrenDo</h3>
-                  <small>AI culture circulation platform for short-form trends</small>
-                </div>
-              </summary>
-              <div class="project-detail">
-                <p>
-                  TrenDo turns fast-moving short-form trends into generation-aware
-                  explanations, actionable ToDo challenges, and local cultural experiences.
-                  The AI layer connects <mark>trend collection</mark>,
-                  <mark>embedding-based similarity</mark>, <mark>LLM explanation</mark>,
-                  challenge generation, and admin monitoring.
-                </p>
-                <ul class="stack">
-                  <li>LLM</li>
-                  <li>Cosine Similarity</li>
-                  <li>Embeddings</li>
-                  <li>Structured Output</li>
-                  <li>Trend Recommendation</li>
-                </ul>
-                <p class="project-links">
-                  <a href="https://github.com/jjyoon012-git/TrenDo">Repository</a>
-                </p>
-                <div class="media-block">
-                  <h4>Screenshots</h4>
-                  <div class="gallery">
-                    <img src="assets/projects/trendo/trendo-main.png" alt="TrenDo main screen" />
-                    <img src="assets/projects/trendo/trendo_1.jpg" alt="TrenDo team or project visual" />
-                    <img src="assets/projects/trendo/trendo_2.png" alt="TrenDo service screen" />
-                    <img src="assets/projects/trendo/trendo_3.png" alt="TrenDo challenge screen" />
-                    <img src="assets/projects/trendo/trendo_4.png" alt="TrenDo additional service screen" />
-                  </div>
-                </div>
-                <div class="media-block">
-                  <h4>Diagram</h4>
-                  <div class="gallery single">
-                    <img src="assets/projects/trendo/mermaid-diagram.png" alt="TrenDo system diagram" />
-                  </div>
-                </div>
-                <div class="media-block">
-                  <h4>Award</h4>
-                  <div class="gallery single">
-                    <img src="assets/awards/khuthon-2026-award.png" alt="khuthon 2026 Excellence Award certificate" />
-                  </div>
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <li class="current">
-            <div class="timeline-meta">
-              <time>Jan 2026 - Present</time>
-              <img class="project-thumb logo-thumb" src="assets/projects/iseeyou/logo.png" alt="I See You logo" />
-            </div>
-            <details class="project-card">
-              <summary>
-                <div>
-                  <h3>I See You</h3>
-                  <small>Multimodal AI-generated content detection</small>
-                </div>
-              </summary>
-              <div class="project-detail">
-                <p>
-                  I See You detects <mark>AI-generated content</mark> by comparing visual
-                  and textual evidence across modalities. The project evolved into a
-                  <mark>multimodal AI consistency-based content verification system</mark>
-                  that checks whether image, text, video, audio, metadata, and model-derived
-                  signals agree with each other. The system combines multi-model voting,
-                  cross-modal verification, and XAI-style evidence views for reliable
-                  AI-generated content judgment.
-                </p>
-                <ul class="stack">
-                  <li>Multimodal AI</li>
-                  <li>CLIP / VLM</li>
-                  <li>AV Sync</li>
-                  <li>Frequency Analysis</li>
-                  <li>XAI</li>
-                </ul>
-                <p class="project-links">
-                  <a href="https://github.com/jjyoon012-git/ISeeYou">Repository</a>
-                </p>
-                <div class="media-block">
-                  <h4>Screenshots</h4>
-                  <div class="gallery">
-                    <img src="assets/projects/iseeyou/1.png" alt="I See You presentation slide" />
-                    <img src="assets/projects/iseeyou/2.png" alt="I See You system slide" />
-                  </div>
-                </div>
-                <div class="media-block">
-                  <h4>Award</h4>
-                  <div class="gallery single">
-                    <img src="assets/awards/kiit-2026-paper-award.png" alt="KIIT 2026 excellent paper award" />
-                  </div>
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <li class="current">
-            <div class="timeline-meta">
-              <time>2026 - Present</time>
-            </div>
-            <div class="project-card static-project">
-              <div>
-                <h3>Medical OS Project</h3>
-                <small>Medical AI Agent</small>
-              </div>
-            </div>
-          </li>
-
-          <li class="current">
-            <div class="timeline-meta">
-              <time>Oct 2025 - Present</time>
-              <img class="project-thumb logo-thumb" src="assets/projects/dinuri/dinuri_logo.jpg" alt="DiNuri logo" />
-            </div>
-            <details class="project-card">
-              <summary>
-                <div>
-                  <h3>DiNuri</h3>
-                  <small>OCR, LLM, TTS based document assistant for seniors</small>
-                </div>
-              </summary>
-              <div class="project-detail">
-                <p>
-                  DiNuri helps senior users understand complex documents. I built the
-                  <mark>OCR-to-LLM document processing pipeline</mark> and service logic that extracts
-                  phone numbers, dates, and account information, then connects them to actions
-                  such as calling or calendar registration.
-                </p>
-                <ul class="stack">
-                  <li>OCR</li>
-                  <li>LLM</li>
-                  <li>TTS</li>
-                  <li>STT</li>
-                  <li>Accessibility AI</li>
-                </ul>
-                <p class="project-links">
-                  <a href="https://github.com/jjyoon012-git/DINURI_AI">Repository</a>
-                </p>
-                <div class="media-block">
-                  <h4>Screenshots</h4>
-                  <div class="gallery">
-                    <img src="assets/projects/dinuri/1.png" alt="DiNuri service screen" />
-                    <img src="assets/projects/dinuri/2.png" alt="DiNuri app flow" />
-                    <img src="assets/projects/dinuri/3.png" alt="DiNuri feature screen" />
-                  </div>
-                </div>
-                <div class="media-block">
-                  <h4>Award</h4>
-                  <div class="gallery single">
-                    <img src="assets/projects/dinuri/awards.jpg" alt="DiNuri award" />
-                  </div>
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <li>
-            <div class="timeline-meta">
-              <time>Nov 2025 - Dec 2025</time>
-            </div>
-            <details class="project-card">
-              <summary>
-                <div>
-                  <h3>OpenWallet</h3>
-                  <small>AI smart expense management with MLOps and CI/CD</small>
-                </div>
-              </summary>
-              <div class="project-detail">
-                <p>
-                  OpenWallet reinterprets personal expense management with AI. I worked on
-                  <mark>AI model integration</mark>, OCR data processing, FastAPI server logic,
-                  <mark>inference optimization</mark>, and <mark>CI/CD monitoring</mark>.
-                  The project also used GitHub Actions and Webhook-based checks to make model
-                  response speed and service stability more
-                  observable.
-                </p>
-                <ul class="stack">
-                  <li>On-device AI</li>
-                  <li>Qwen</li>
-                  <li>MLOps</li>
-                  <li>CI/CD</li>
-                  <li>Webhook Monitoring</li>
-                </ul>
-                <p class="project-links">
-                  <a href="https://github.com/jjyoon012-git/OpenWallet_AI">AI Repository</a>
-                  <a href="https://github.com/orgs/OpenWallet-2025/repositories">Organization</a>
-                </p>
-                <div class="media-block">
-                  <h4>Screenshots</h4>
-                  <div class="gallery">
-                    <img src="assets/projects/openwallet/1.png" alt="OpenWallet dashboard" />
-                    <img src="assets/projects/openwallet/2.png" alt="OpenWallet report screen" />
-                    <img src="assets/projects/openwallet/3.png" alt="OpenWallet feature screen" />
-                    <img src="assets/projects/openwallet/4.png" alt="OpenWallet deployment screen" />
-                  </div>
-                </div>
-                <div class="media-block">
-                  <h4>Diagram</h4>
-                  <div class="gallery single">
-                    <img src="assets/projects/openwallet/diagram.png" alt="OpenWallet architecture diagram" />
-                  </div>
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <li>
-            <div class="timeline-meta">
-              <time>Nov 2025</time>
-            </div>
-            <details class="project-card">
-              <summary>
-                <div>
-                  <h3>ECAGestureNet</h3>
-                  <small>On-device gesture recognition for smart slide control</small>
-                </div>
-              </summary>
-              <div class="project-detail">
-                <p>
-                  ECAGestureNet is a real-time hand gesture recognition system for controlling
-                  presentation slides without a remote. I developed the lightweight vision AI
-                  model and connected it to an <mark>on-device control workflow</mark>.
-                </p>
-                <ul class="stack">
-                  <li>On-device AI</li>
-                  <li>ECA-Net</li>
-                  <li>PyTorch</li>
-                  <li>ONNX Runtime</li>
-                  <li>Gesture Recognition</li>
-                </ul>
-                <p class="project-links">
-                  <a href="https://github.com/jjyoon012-git/ECAGestureNet">Repository</a>
-                </p>
-                <div class="media-block">
-                  <h4>Screenshots</h4>
-                  <div class="gallery">
-                    <img src="assets/projects/ecagesturenet/1.png" alt="ECAGestureNet demo" />
-                    <img src="assets/projects/ecagesturenet/2.png" alt="ECAGestureNet system" />
-                  </div>
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <li>
-            <div class="timeline-meta">
-              <time>Oct 2025</time>
-              <img class="project-thumb logo-thumb" src="assets/logos/nasa-logo.svg" alt="NASA logo" />
-            </div>
-            <details class="project-card">
-              <summary>
-                <div>
-                  <h3>AIRBENDER / NASA-Navi</h3>
-                  <small>NASA TEMPO based air quality forecasting</small>
-                </div>
-              </summary>
-              <div class="project-detail">
-                <p>
-                  AIRBENDER uses NASA TEMPO and environmental data to predict air quality and
-                  translate results into user-facing guidance. My role centered on R-based
-                  data analysis, <mark>feature design</mark>, <mark>model input construction</mark>,
-                  and visualization.
-                </p>
-                <ul class="stack">
-                  <li>AI Forecasting</li>
-                  <li>NASA TEMPO</li>
-                  <li>R</li>
-                  <li>Data Mining</li>
-                  <li>LLM Guidance</li>
-                </ul>
-                <p class="project-links">
-                  <a href="https://github.com/jjyoon012-git/NASA-NAVI-R">R Repository</a>
-                  <a href="https://github.com/nasa-navi/NASA-NAVI-AIRBENDER">Team Repository</a>
-                </p>
-                <div class="media-block">
-                  <h4>Screenshots</h4>
-                  <div class="gallery">
-                    <img src="assets/projects/airbender/2.png" alt="AIRBENDER analysis screen" />
-                    <img src="assets/projects/airbender/app1.png" alt="AIRBENDER app screen" />
-                    <img src="assets/projects/airbender/app2.png" alt="AIRBENDER map screen" />
-                  </div>
-                </div>
-                <div class="media-block">
-                  <h4>Award</h4>
-                  <div class="gallery">
-                    <img src="assets/projects/airbender/awards.png" alt="NASA Space Apps award" />
-                    <img src="assets/projects/airbender/awards2.png" alt="NASA Space Apps certificate" />
-                  </div>
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <li>
-            <div class="timeline-meta">
-              <time>May 2025 - Oct 2025</time>
-              <img class="project-thumb logo-thumb" src="assets/projects/imageinterceptor/logo.png" alt="Image Interceptor logo" />
-            </div>
-            <details class="project-card">
-              <summary>
-                <div>
-                  <h3>Image Interceptor</h3>
-                  <small>Vision AI harmful image blocking Chrome extension</small>
-                </div>
-              </summary>
-              <div class="project-detail">
-                <p>
-                  Image Interceptor detects and blocks harmful images in real time inside the
-                  browser. I worked on <mark>vision model training</mark>, data preprocessing,
-                  <mark>hard-negative</mark>
-                  improvement, and service integration with the Chrome extension.
-                </p>
-                <ul class="stack">
-                  <li>Vision AI</li>
-                  <li>PyTorch</li>
-                  <li>ConvNeXt</li>
-                  <li>Image Classification</li>
-                  <li>Hard Negative Mining</li>
-                </ul>
-                <p class="project-links">
-                  <a href="https://github.com/ImageInterceptor/ImageInterceptor_AI">Repository</a>
-                </p>
-                <div class="media-block">
-                  <h4>Screenshots</h4>
-                  <div class="gallery">
-                    <img src="assets/projects/imageinterceptor/main.png" alt="Image Interceptor main screen" />
-                    <img src="assets/projects/imageinterceptor/1.png" alt="Image Interceptor demo" />
-                    <img src="assets/projects/imageinterceptor/2.png" alt="Image Interceptor extension screen" />
-                    <img src="assets/projects/imageinterceptor/team.jpg" alt="Image Interceptor team photo" />
-                  </div>
-                </div>
-                <div class="media-block">
-                  <h4>Diagram</h4>
-                  <div class="gallery single">
-                    <img src="assets/projects/imageinterceptor/diagram.png" alt="Image Interceptor architecture" />
-                  </div>
-                </div>
-                <div class="media-block">
-                  <h4>Award</h4>
-                  <div class="gallery">
-                    <img src="assets/projects/imageinterceptor/awards.jpg" alt="Image Interceptor award" />
-                    <img src="assets/projects/imageinterceptor/awards2.jpg" alt="Image Interceptor award certificate" />
-                  </div>
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <li>
-            <div class="timeline-meta">
-              <time>May 2025 - Oct 2025</time>
-            </div>
-            <details class="project-card">
-              <summary>
-                <div>
-                  <h3>Smooth Talk</h3>
-                  <small>LLM based conversation feedback service</small>
-                </div>
-              </summary>
-              <div class="project-detail">
-                <p>
-                  Smooth Talk analyzes user utterances, scores response quality, and returns
-                  concrete improvement feedback. The project focuses on turning unstructured
-                  conversation into a consistent <mark>LLM-based evaluation</mark> and coaching loop.
-                </p>
-                <ul class="stack">
-                  <li>LLM</li>
-                  <li>Prompt Design</li>
-                  <li>Conversation Analysis</li>
-                  <li>Scoring Logic</li>
-                  <li>Feedback Generation</li>
-                </ul>
-                <div class="media-block">
-                  <h4>Award</h4>
-                  <div class="gallery single">
-                    <img src="assets/projects/smoothtalk/awards.jpg" alt="Smooth Talk award" />
-                  </div>
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <li>
-            <div class="timeline-meta">
-              <time>Jul 2025</time>
-              <div class="logo-pair" aria-label="UC San Diego and Qualcomm Institute logos">
-                <img class="project-thumb logo-thumb" src="assets/logos/ucsd-logo.svg" alt="UC San Diego logo" />
-                <img class="project-thumb logo-thumb" src="assets/logos/qualcomm-institute-logo.png" alt="Qualcomm Institute logo" />
-              </div>
-            </div>
-            <details class="project-card">
-              <summary>
-                <div>
-                  <h3>SixSense AI</h3>
-                  <small>GCP based anomaly detection AI for credit-card fraud</small>
-                </div>
-              </summary>
-              <div class="project-detail">
-                <p>
-                  SixSense AI was developed during the UC San Diego Qualcomm Institute AI
-                  Entrepreneurship Program. I built a cloud-based ML pipeline for credit-card
-                  transaction preprocessing, model training, and <mark>abnormal transaction
-                  detection</mark>.
-                </p>
-                <ul class="stack">
-                  <li>Anomaly Detection AI</li>
-                  <li>Google Cloud Platform</li>
-                  <li>Vertex AI</li>
-                  <li>Tabular ML</li>
-                  <li>ML Pipeline</li>
-                </ul>
-                <div class="media-block">
-                  <h4>Screenshots</h4>
-                  <div class="gallery single">
-                    <img src="assets/projects/sixsenseai/1.png" alt="SixSense AI screen" />
-                  </div>
-                </div>
-                <div class="media-block">
-                  <h4>Certificate</h4>
-                  <div class="gallery">
-                    <img src="assets/projects/sixsenseai/certificates.jpg" alt="UCSD QI certificate" />
-                    <img src="assets/projects/sixsenseai/GCP자격증_윤정아.jpg" alt="Google Cloud certificate" />
-                  </div>
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <li>
-            <div class="timeline-meta">
-              <time>2025</time>
-            </div>
-            <details class="project-card">
-              <summary>
-                <div>
-                  <h3>MAI Suwon Travel</h3>
-                  <small>RAG and LLM based personalized local travel recommendation</small>
-                </div>
-              </summary>
-              <div class="project-detail">
-                <p>
-                  MAI Suwon Travel recommends local travel experiences by connecting Suwon
-                  city information with user preferences. The project direction is a
-                  <mark>retrieval-augmented service</mark> that grounds recommendations in local data.
-                </p>
-                <ul class="stack">
-                  <li>LLM</li>
-                  <li>RAG</li>
-                  <li>Recommendation</li>
-                  <li>Local Data</li>
-                  <li>Personalization</li>
-                </ul>
-                <div class="media-block">
-                  <h4>Award</h4>
-                  <div class="gallery single">
-                    <img src="assets/projects/maisuwontravel/awards.png" alt="MAI Suwon Travel award" />
-                  </div>
-                </div>
-              </div>
-            </details>
-          </li>
-
-          <li>
-            <div class="timeline-meta">
-              <time>Feb 2025 - Jul 2025</time>
-              <img class="project-thumb logo-thumb" src="assets/logos/suwon-special-city-logo.png" alt="Suwon Special City logo" />
-            </div>
-            <details class="project-card">
-              <summary>
-                <div>
-                  <h3>Suwon City Climate Contribution Project</h3>
-                  <small>Public data, database validation, and server operation</small>
-                </div>
-              </summary>
-              <div class="project-detail">
-                <p>
-                  I participated in Suwon City's carbon monitoring support project, handling
-                  apartment remote-metering <mark>data linkage</mark>, monthly upload operations,
-                  and <mark>database validation</mark> work for a public service system.
-                </p>
-                <ul class="stack">
-                  <li>Python</li>
-                  <li>DBeaver</li>
-                  <li>Database</li>
-                  <li>Server Operation</li>
-                  <li>Data Validation</li>
-                </ul>
-                <div class="media-block">
-                  <h4>Screenshots</h4>
-                  <div class="gallery single">
-                    <img src="assets/projects/suwoncity/1.jpg" alt="Suwon city climate project activity" />
-                  </div>
-                </div>
-                <div class="media-block">
-                  <h4>Award</h4>
-                  <div class="gallery single">
-                    <img src="assets/projects/suwoncity/awards.jpg" alt="Suwon city award" />
-                  </div>
-                </div>
-              </div>
-            </details>
-          </li>
-        </ol>
-      </section>
-
-      <section class="section">
-        <h2>Skills</h2>
-        <div class="skill-grid">
-          <p><strong>Programming</strong><br />Python, R, C</p>
-          <p><strong>Medical & Vision AI</strong><br />Ultrasound image analysis, lesion classification, ConvNeXt, PyTorch, explainable model evaluation</p>
-          <p><strong>Multimodal & MLLM</strong><br />B-mode/Doppler fusion, vision-language reasoning, LLM-as-Judge evaluation, multimodal AI-generated content detection</p>
-          <p><strong>Generative & LLM Systems</strong><br />Hugging Face Transformers, Diffusers, Qwen, RAG, OCR-to-LLM pipelines, structured output design</p>
-          <p><strong>On-device & Real-time AI</strong><br />ONNX Runtime, lightweight inference, gesture recognition, browser-integrated vision AI, real-time detection flows</p>
-          <p><strong>Cloud ML & MLOps</strong><br />Google Cloud Vertex AI, FastAPI, Docker, GitHub Actions, webhook monitoring, CI/CD-based AI service operation</p>
-          <p><strong>Data & Evaluation</strong><br />Preprocessing, cross-validation, class imbalance analysis, error analysis, anomaly detection, reproducibility checks</p>
-          <p><strong>Languages</strong><br />Korean, English</p>
+        <div class="section-heading">
+          <div><p class="section-index">03</p><h2>Featured Projects</h2></div>
+          <p>Selected by relevance to Vision AI, data engineering, multimodal/video evaluation, and emerging 3D understanding.</p>
         </div>
+
+        <div class="featured-projects">
+          <article class="featured-project" id="notifi">
+            <header class="featured-header">
+              <div><p class="project-number">01 · Human Motion / Emerging 3D</p><h3>NotiFi</h3><p class="project-subtitle">CSI-to-Pose &amp; Non-contact Human Monitoring</p></div>
+              <time>Jun 2026 – Present</time>
+            </header>
+            <div class="featured-layout">
+              <div class="featured-media"><img src="assets/projects/notifi/csi-to-pose-unstable-walking.gif" alt="NotiFi CSI-to-Pose unstable walking 3D skeleton proxy pilot" width="680" height="420" loading="lazy" /><p class="media-caption">Pilot: CSI-only inference of a 13-point 3D skeleton proxy</p></div>
+              <div class="featured-copy">
+                <section><h4>Overview</h4><p>Explores non-contact monitoring of falls, abnormal breathing, inactivity, and motion using WiFi CSI rather than cameras or wearables at inference time.</p></section>
+                <section><h4>My Role</h4><ul class="role-list"><li>Built WiFi CSI data processing and modeling flows.</li><li>Used training-only video pose labels as ground truth.</li><li>Developed a CSI-to-Pose pilot for reconstructing a 13-point 3D skeleton proxy.</li><li>Explored human motion patterns using CSI-only inference.</li></ul></section>
+                <blockquote><span>What I Learned</span>This project expanded my interest from image and video understanding toward 3D human motion and spatial intelligence.</blockquote>
+                <ul class="stack"><li>WiFi CSI</li><li>CSI-to-Pose</li><li>MediaPipe</li><li>TCN</li><li>1D-CNN / GRU</li></ul>
+                <p class="project-links"><a href="https://github.com/jjyoon012-git/NotiFi" target="_blank" rel="noreferrer">Repository</a><a class="external-link" href="https://ictcoc.kr/news/news_view.asp?idx=1287&amp;page=1&amp;params=" target="_blank" rel="noreferrer">Program Notice</a></p>
+              </div>
+            </div>
+            <details class="evidence"><summary>View CSI-to-Pose architecture</summary><div class="gallery single"><img src="assets/projects/notifi/csi-to-pose-overview.png" alt="NotiFi CSI-to-Pose architecture" loading="lazy" /></div></details>
+          </article>
+
+          <article class="featured-project" id="image-interceptor">
+            <header class="featured-header">
+              <div><p class="project-number">02 · Data Curation / Vision AI</p><h3>Image Interceptor</h3><p class="project-subtitle">Vision AI-based harmful image detection system</p></div>
+              <time>May 2025 – Oct 2025</time>
+            </header>
+            <div class="featured-layout">
+              <div class="featured-media">
+                <img src="assets/projects/imageinterceptor/main.png" alt="Image Interceptor browser extension main screen" width="680" height="420" loading="lazy" />
+                <p class="media-caption">Browser-integrated harmful image detection workflow</p>
+              </div>
+              <div class="featured-copy">
+                <section><h4>Overview</h4><p>Built a browser-based harmful image detection system and constructed the training dataset from large-scale web image collection.</p></section>
+                <section><h4>My Role</h4><ul class="role-list"><li>Collected approximately 70,000 web images.</li><li>Performed filtering, preprocessing, and dataset construction.</li><li>Adjusted class composition and training data quality through iterative refinement.</li><li>Trained and evaluated a PyTorch-based image classification model.</li><li>Integrated inference into a web-based service flow.</li></ul></section>
+                <blockquote><span>What I Learned</span>Repeated dataset refinement showed me that model performance depends heavily on data quality, class balance, and dataset composition—not only on model architecture.</blockquote>
+                <ul class="stack"><li>Vision AI</li><li>PyTorch</li><li>ConvNeXt</li><li>Data Curation</li><li>Hard Negative Mining</li></ul>
+                <p class="project-links"><a href="https://github.com/ImageInterceptor/ImageInterceptor_AI" target="_blank" rel="noreferrer">Repository</a></p>
+              </div>
+            </div>
+            <details class="evidence"><summary>View screenshots, architecture, and award evidence</summary><div class="gallery"><img src="assets/projects/imageinterceptor/1.png" alt="Image Interceptor demo" loading="lazy" /><img src="assets/projects/imageinterceptor/2.png" alt="Image Interceptor extension screen" loading="lazy" /><img src="assets/projects/imageinterceptor/diagram.png" alt="Image Interceptor architecture" loading="lazy" /><img src="assets/projects/imageinterceptor/awards.jpg" alt="Image Interceptor award" loading="lazy" /><img src="assets/projects/imageinterceptor/awards2.jpg" alt="Image Interceptor award certificate" loading="lazy" /><img src="assets/projects/imageinterceptor/team.jpg" alt="Image Interceptor team" loading="lazy" /></div></details>
+          </article>
+
+          <article class="featured-project" id="i-see-you">
+            <header class="featured-header">
+              <div><p class="project-number">03 · Multimodal / Video Evaluation</p><h3>I See You</h3><p class="project-subtitle">Multimodal AI-generated Content Verification</p></div>
+              <time>Jan 2026 – Present</time>
+            </header>
+            <div class="featured-layout">
+              <div class="featured-media"><img src="assets/projects/iseeyou/1.png" alt="I See You multimodal verification presentation" width="680" height="420" loading="lazy" /><p class="media-caption">Image, video, text, audio, and metadata consistency</p></div>
+              <div class="featured-copy">
+                <section><h4>Overview</h4><p>Verifies AI-generated content by combining evidence across image, video, text, audio, metadata, and model-derived signals.</p></section>
+                <section><h4>My Role</h4><ul class="role-list"><li>Designed multimodal fusion and verification logic.</li><li>Combined image, video, text, audio, metadata, and model-derived evidence.</li><li>Used multi-model voting and cross-modal consistency checks.</li><li>Built XAI-style evidence views to make judgment results interpretable.</li></ul></section>
+                <blockquote><span>What I Learned</span>Reliable evaluation of generated content requires consistency checks across modalities rather than relying on a single classifier.</blockquote>
+                <ul class="stack"><li>Multimodal AI</li><li>CLIP / VLM</li><li>Video / AV Sync</li><li>Frequency Analysis</li><li>XAI</li></ul>
+                <p class="project-links"><a href="https://github.com/jjyoon012-git/ISeeYou" target="_blank" rel="noreferrer">Repository</a></p>
+              </div>
+            </div>
+            <details class="evidence"><summary>View system and award evidence</summary><div class="gallery"><img src="assets/projects/iseeyou/2.png" alt="I See You system slide" loading="lazy" /><img src="assets/awards/kiit-2026-paper-award.png" alt="KIIT 2026 Excellent Paper Award" loading="lazy" /></div></details>
+          </article>
+
+          <article class="featured-project" id="dinuri">
+            <header class="featured-header">
+              <div><p class="project-number">04 · Human-centered AI</p><h3>DiNuri</h3><p class="project-subtitle">Document understanding assistant for senior users</p></div>
+              <time>Oct 2025 – Present</time>
+            </header>
+            <div class="featured-layout">
+              <div class="featured-media"><img src="assets/projects/dinuri/1.png" alt="DiNuri document assistant interface" width="680" height="420" loading="lazy" /><p class="media-caption">OCR → simplification → structured information → TTS / action</p></div>
+              <div class="featured-copy">
+                <section><h4>Overview</h4><p>Helps senior users understand complex documents and connect extracted information to practical actions.</p></section>
+                <section><h4>My Role &amp; Technical Approach</h4><ul class="role-list"><li>Built the OCR-to-LLM document processing pipeline.</li><li>Simplified and summarized document content.</li><li>Extracted structured phone numbers, dates, and account information.</li><li>Connected output to TTS, calls, and calendar registration flows.</li></ul></section>
+                <blockquote><span>What I Learned</span>AI output should not only be accurate, but also understandable and actionable for users.</blockquote>
+                <ul class="stack"><li>OCR</li><li>LLM</li><li>TTS</li><li>STT</li><li>Accessibility AI</li></ul>
+                <p class="project-links"><a href="https://github.com/jjyoon012-git/DINURI_AI" target="_blank" rel="noreferrer">Repository</a></p>
+              </div>
+            </div>
+            <details class="evidence"><summary>View app and award evidence</summary><div class="gallery"><img src="assets/projects/dinuri/2.png" alt="DiNuri app flow" loading="lazy" /><img src="assets/projects/dinuri/3.png" alt="DiNuri feature screen" loading="lazy" /><img src="assets/projects/dinuri/awards.jpg" alt="DiNuri award" loading="lazy" /></div></details>
+          </article>
+
+          <article class="featured-project" id="openwallet">
+            <header class="featured-header">
+              <div><p class="project-number">05 · AI Engineering</p><h3>OpenWallet</h3><p class="project-subtitle">AI smart expense management and service monitoring</p></div>
+              <time>Nov 2025 – Dec 2025</time>
+            </header>
+            <div class="featured-layout">
+              <div class="featured-media"><img src="assets/projects/openwallet/diagram.png" alt="OpenWallet AI service architecture" width="680" height="420" loading="lazy" /><p class="media-caption">AI integration, inference service, and delivery workflow</p></div>
+              <div class="featured-copy">
+                <section><h4>Overview</h4><p>Connected OCR and LLM-assisted expense understanding with a FastAPI inference service and observable delivery workflow.</p></section>
+                <section><h4>My Role &amp; Technical Approach</h4><ul class="role-list"><li>Integrated AI models and processed OCR-derived data.</li><li>Built FastAPI server logic and improved inference response time.</li><li>Monitored response behavior through webhook-based checks.</li><li>Used GitHub Actions to handle CI/CD checks and failure visibility.</li></ul></section>
+                <blockquote><span>What I Learned</span>Reliable AI engineering requires model behavior, response time, and delivery failures to be observable together.</blockquote>
+                <ul class="stack"><li>FastAPI</li><li>OCR / Qwen</li><li>On-device AI</li><li>Webhook</li><li>GitHub Actions</li><li>MLOps / CI/CD</li></ul>
+                <p class="project-links"><a href="https://github.com/jjyoon012-git/OpenWallet_AI" target="_blank" rel="noreferrer">AI Repository</a><a href="https://github.com/orgs/OpenWallet-2025/repositories" target="_blank" rel="noreferrer">Organization</a></p>
+              </div>
+            </div>
+            <details class="evidence"><summary>View service screenshots</summary><div class="gallery"><img src="assets/projects/openwallet/1.png" alt="OpenWallet dashboard" loading="lazy" /><img src="assets/projects/openwallet/2.png" alt="OpenWallet report" loading="lazy" /><img src="assets/projects/openwallet/3.png" alt="OpenWallet feature screen" loading="lazy" /><img src="assets/projects/openwallet/4.png" alt="OpenWallet deployment screen" loading="lazy" /></div></details>
+          </article>
+        </div>
+
+        <div class="other-projects-heading"><div><p class="section-index">03.2</p><h3>Other Projects</h3></div><p>Additional AI, data, cloud, and applied engineering work—kept in a compact timeline.</p></div>
+        <ol class="timeline project-timeline other-projects">
+          <li><div class="timeline-meta"><time>May 2026</time><img class="project-thumb" src="assets/projects/trendo/trendo-main.png" alt="TrenDo representative image" loading="lazy" /></div><details class="project-card"><summary><div><h3>TrenDo</h3><small>AI culture circulation platform for short-form trends</small></div></summary><div class="project-detail"><p>Connected trend collection, embedding similarity, LLM explanations, structured challenge generation, and admin monitoring.</p><ul class="stack"><li>LLM</li><li>Embeddings</li><li>Cosine Similarity</li><li>Structured Output</li></ul><p class="project-links"><a href="https://github.com/jjyoon012-git/TrenDo" target="_blank" rel="noreferrer">Repository</a></p><div class="gallery"><img src="assets/projects/trendo/trendo-main.png" alt="TrenDo main screen" loading="lazy" /><img src="assets/projects/trendo/trendo_1.jpg" alt="TrenDo team or project visual" loading="lazy" /><img src="assets/projects/trendo/trendo_2.png" alt="TrenDo service screen" loading="lazy" /><img src="assets/projects/trendo/trendo_3.png" alt="TrenDo challenge screen" loading="lazy" /><img src="assets/projects/trendo/trendo_4.png" alt="TrenDo additional service screen" loading="lazy" /><img src="assets/projects/trendo/mermaid-diagram.png" alt="TrenDo system diagram" loading="lazy" /><img src="assets/projects/trendo/awards.jpg" alt="TrenDo award" loading="lazy" /></div></div></details></li>
+          <li class="current"><div class="timeline-meta"><time>2026 – Present</time></div><div class="project-card static-project"><h3>Medical OS Project</h3><small>Medical AI Agent · Open-source medical OS collaboration</small></div></li>
+          <li><div class="timeline-meta"><time>Nov 2025</time></div><details class="project-card"><summary><div><h3>ECAGestureNet</h3><small>On-device gesture recognition for slide control</small></div></summary><div class="project-detail"><p>Developed a lightweight real-time hand gesture recognition model and connected it to an on-device control workflow.</p><ul class="stack"><li>ECA-Net</li><li>PyTorch</li><li>ONNX Runtime</li><li>Gesture Recognition</li></ul><p class="project-links"><a href="https://github.com/jjyoon012-git/ECAGestureNet" target="_blank" rel="noreferrer">Repository</a></p><div class="gallery"><img src="assets/projects/ecagesturenet/1.png" alt="ECAGestureNet demo" loading="lazy" /><img src="assets/projects/ecagesturenet/2.png" alt="ECAGestureNet system" loading="lazy" /></div></div></details></li>
+          <li><div class="timeline-meta"><time>Oct 2025</time><img class="project-thumb logo-thumb" src="assets/logos/nasa-logo.svg" alt="NASA logo" loading="lazy" /></div><details class="project-card"><summary><div><h3>AIRBENDER / NASA-Navi</h3><small>NASA TEMPO-based air-quality forecasting</small></div></summary><div class="project-detail"><p>Worked on R-based environmental data analysis, feature design, model input construction, visualization, and user-facing LLM guidance.</p><ul class="stack"><li>NASA TEMPO</li><li>R</li><li>Data Mining</li><li>Forecasting</li></ul><p class="project-links"><a href="https://github.com/jjyoon012-git/NASA-NAVI-R" target="_blank" rel="noreferrer">R Repository</a><a href="https://github.com/nasa-navi/NASA-NAVI-AIRBENDER" target="_blank" rel="noreferrer">Team Repository</a></p><div class="gallery"><img src="assets/projects/airbender/2.png" alt="AIRBENDER analysis" loading="lazy" /><img src="assets/projects/airbender/app1.png" alt="AIRBENDER app" loading="lazy" /><img src="assets/projects/airbender/app2.png" alt="AIRBENDER map" loading="lazy" /><img src="assets/projects/airbender/awards.png" alt="NASA Space Apps award" loading="lazy" /><img src="assets/projects/airbender/awards2.png" alt="NASA Space Apps certificate" loading="lazy" /></div></div></details></li>
+          <li><div class="timeline-meta"><time>May 2025 – Oct 2025</time></div><details class="project-card"><summary><div><h3>Smooth Talk</h3><small>LLM-based conversation feedback service</small></div></summary><div class="project-detail"><p>Turned unstructured conversation into a consistent scoring, evaluation, and coaching loop using LLM-based analysis.</p><ul class="stack"><li>LLM</li><li>Prompt Design</li><li>Scoring Logic</li><li>Feedback Generation</li></ul><div class="gallery single"><img src="assets/projects/smoothtalk/awards.jpg" alt="Smooth Talk award" loading="lazy" /></div></div></details></li>
+          <li><div class="timeline-meta"><time>Jul 2025</time><div class="logo-pair"><img class="project-thumb logo-thumb" src="assets/logos/ucsd-logo.svg" alt="UC San Diego logo" loading="lazy" /><img class="project-thumb logo-thumb" src="assets/logos/qualcomm-institute-logo.png" alt="Qualcomm Institute logo" loading="lazy" /></div></div><details class="project-card"><summary><div><h3>SixSense AI</h3><small>GCP-based anomaly detection for credit-card fraud</small></div></summary><div class="project-detail"><p>Built a cloud ML pipeline for credit-card transaction preprocessing, model training, and abnormal transaction detection.</p><ul class="stack"><li>Google Cloud</li><li>Vertex AI</li><li>Tabular ML</li><li>Anomaly Detection</li></ul><div class="gallery"><img src="assets/projects/sixsenseai/1.png" alt="SixSense AI screen" loading="lazy" /><img src="assets/projects/sixsenseai/certificates.jpg" alt="UCSD Qualcomm Institute certificate" loading="lazy" /><img src="assets/projects/sixsenseai/GCP자격증_윤정아.jpg" alt="Google Cloud certificate" loading="lazy" /></div></div></details></li>
+          <li><div class="timeline-meta"><time>2025</time></div><details class="project-card"><summary><div><h3>MAI Suwon Travel</h3><small>RAG and LLM-based local travel recommendation</small></div></summary><div class="project-detail"><p>Grounded personalized local travel recommendations in Suwon city data using retrieval-augmented generation.</p><ul class="stack"><li>LLM</li><li>RAG</li><li>Local Data</li><li>Personalization</li></ul><div class="gallery single"><img src="assets/projects/maisuwontravel/awards.png" alt="MAI Suwon Travel award" loading="lazy" /></div></div></details></li>
+          <li><div class="timeline-meta"><time>Feb 2025 – Jul 2025</time><img class="project-thumb logo-thumb" src="assets/logos/suwon-special-city-logo.png" alt="Suwon Special City logo" loading="lazy" /></div><details class="project-card"><summary><div><h3>Suwon City Climate Contribution Project</h3><small>Public data, database validation, and service operation</small></div></summary><div class="project-detail"><p>Handled apartment remote-metering data linkage, monthly uploads, database validation, and service operation support for a public carbon monitoring system.</p><ul class="stack"><li>Python</li><li>DBeaver</li><li>Database</li><li>Data Validation</li></ul><div class="gallery"><img src="assets/projects/suwoncity/1.jpg" alt="Suwon City project activity" loading="lazy" /><img src="assets/projects/suwoncity/awards.jpg" alt="Suwon City commendation" loading="lazy" /></div></div></details></li>
+        </ol>
       </section>
 
-      <section class="section">
-        <h2>Future Research Interests</h2>
-        <ol class="interest-list">
-          <li>
-            <span>01</span>
-            <div>
-              <h3>Voice-based Multimodal AI</h3>
-              <p><mark>Voice synthesis</mark>, speech interaction, and multimodal systems that combine audio, text, and visual context.</p>
-            </div>
-          </li>
-          <li>
-            <span>02</span>
-            <div>
-              <h3>3D Vision & Digital Twins</h3>
-              <p><mark>3D reconstruction</mark>, spatial understanding, and AI systems that connect real environments with digital representations.</p>
-            </div>
-          </li>
-          <li>
-            <span>03</span>
-            <div>
-              <h3>Neuroscience x AI</h3>
-              <p>Learning, uncertainty, and decision-making models inspired by <mark>neuroscience</mark> and computational cognition.</p>
-            </div>
-          </li>
-        </ol>
+      <section id="skills" class="section">
+        <div class="section-heading"><div><p class="section-index">04</p><h2>Skills</h2></div><p>Tools grouped by how they support research and delivery—not by proficiency percentages.</p></div>
+        <div class="skill-grid">
+          <article><span>01</span><h3>Vision &amp; AI</h3><p>Python · PyTorch · Computer Vision · Multimodal AI · Generative AI · VLM/MLLM</p></article>
+          <article><span>02</span><h3>Data &amp; Evaluation</h3><p>Preprocessing · Data Curation · Evaluation Pipeline · Cross-validation · Failure Analysis · SQL</p></article>
+          <article><span>03</span><h3>Engineering</h3><p>FastAPI · Git/GitHub · Docker · GitHub Actions · Webhook Monitoring · CI/CD</p></article>
+          <article><span>04</span><h3>Cloud</h3><p>Google Cloud Platform · Vertex AI · Cloud ML Pipeline</p></article>
+          <article><span>05</span><h3>Spatial / Emerging</h3><p>3D Vision · Pose Estimation · CSI-to-Pose · Video Understanding · Human Motion</p></article>
+          <article><span>06</span><h3>Other</h3><p>C · R · Linux · ONNX Runtime · Korean · English</p></article>
+        </div>
       </section>
 
       <section id="awards" class="section">
-        <h2>Awards and Honors</h2>
+        <div class="section-heading"><div><p class="section-index">05</p><h2>Awards &amp; Honors</h2></div><p>Complete awards and honors record.</p></div>
         <div class="award-list">
-          <article class="award-row featured">
-            <span class="award-badge">Excellence<br /><small>최우수상</small></span>
-            <div class="award-main">
-              <h3>2026 Advanced Capstone Design Excellence Award / 2026 심화 캡스톤디자인 최우수상</h3>
-              <p>I See You, multimodal AI consistency-based content verification system.</p>
-            </div>
-            <time>Jun 2026</time>
-          </article>
-          <article class="award-row blue">
-            <span class="award-badge">Paper<br /><small>우수논문상</small></span>
-            <div class="award-main">
-              <h3>KIIT Excellent Paper Award / 한국정보기술학회 대학생논문경진대회 우수논문상</h3>
-              <p>Paper: Multimodal AI Consistency-based Content Verification System.</p>
-            </div>
-            <time>Jun 2026</time>
-          </article>
-          <article class="award-row featured">
-            <span class="award-badge">Excellence<br /><small>우수상</small></span>
-            <div class="award-main">
-              <h3>khuthon 2026 Excellence Award / khuthon 2026 우수상</h3>
-              <p>TrenDo, AI culture circulation platform for short-form trends.</p>
-            </div>
-            <time>May 2026</time>
-          </article>
-          <article class="award-row featured">
-            <span class="award-badge">Representative<br /><small>대표</small></span>
-            <div class="award-main">
-              <h3>IITP Digital Young Talent Representative / IITP 디지털 청년인재 대표 선정</h3>
-              <p>Selected as a representative young AI/SW talent.</p>
-            </div>
-            <time>Jan 2026</time>
-          </article>
-          <article class="award-row gold">
-            <span class="award-badge">Grand Prize<br /><small>대상</small></span>
-            <div class="award-main">
-              <h3>SW-Centered University Joint AI Hackathon / SW중심대학 공동 AI 해커톤</h3>
-              <p>DiNuri, OCR-LLM document understanding service for seniors.</p>
-            </div>
-            <time>Oct 2025</time>
-          </article>
-          <article class="award-row blue">
-            <span class="award-badge">President<br /><small>총장상</small></span>
-            <div class="award-main">
-              <h3>2025 AI-Powered SW Imagination Company Excellence Award / SW상상기업 최우수상</h3>
-              <p>Image Interceptor, real-time harmful image detection system.</p>
-            </div>
-            <time>Oct 2025</time>
-          </article>
-          <article class="award-row purple">
-            <span class="award-badge">Special<br /><small>특별상</small></span>
-            <div class="award-main">
-              <h3>LIG Nex1 Special Award / LIG넥스원 특별상</h3>
-              <p>Recognized through the AI-Powered SW Imagination Company program.</p>
-            </div>
-            <time>Oct 2025</time>
-          </article>
-          <article class="award-row green">
-            <span class="award-badge">Commendation<br /><small>표창</small></span>
-            <div class="award-main">
-              <h3>Suwon Special City Mayor Commendation / 수원특례시장 표창</h3>
-              <p>Contribution to a public carbon monitoring support project.</p>
-            </div>
-            <time>Jul 2025</time>
-          </article>
-          <article class="award-row global">
-            <span class="award-badge">Global</span>
-            <div class="award-main">
-              <h3>NASA International Space Apps Challenge Galactic Problem Solver</h3>
-              <p>AIRBENDER, NASA TEMPO-based air quality forecasting project.</p>
-            </div>
-            <time>Oct 2025</time>
-          </article>
-          <article class="award-row blue">
-            <span class="award-badge">Director<br /><small>단장상</small></span>
-            <div class="award-main">
-              <h3>2025 AI-Powered SW Imagination Company Encouragement Award / SW상상기업 장려상</h3>
-              <p>Smooth Talk, LLM-based conversation analysis service.</p>
-            </div>
-            <time>Oct 2025</time>
-          </article>
-          <article class="award-row silver">
-            <span class="award-badge">Silver<br /><small>은상</small></span>
-            <div class="award-main">
-              <h3>Basic Capstone Design Competition / 기초캡스톤디자인 경진대회</h3>
-              <p>Silver Prize for a team-based software design project.</p>
-            </div>
-            <time>Jul 2025</time>
-          </article>
-          <article class="award-row silver">
-            <span class="award-badge">Merit<br /><small>성적장학</small></span>
-            <div class="award-main">
-              <h3>Academic Merit Scholarship / 성적장학금</h3>
-              <p>Received academic merit scholarships five times for strong undergraduate performance.</p>
-            </div>
-            <time>5 times</time>
-          </article>
+          <article class="award-row featured"><span class="award-badge">Excellence<small>최우수상</small></span><div class="award-main"><h3>2026 Advanced Capstone Design Excellence Award / 2026 심화 캡스톤디자인 최우수상</h3><p>I See You, multimodal AI consistency-based content verification system.</p></div><time>Jun 2026</time></article>
+          <article class="award-row featured"><span class="award-badge">Paper<small>우수논문상</small></span><div class="award-main"><h3>KIIT Excellent Paper Award / 한국정보기술학회 대학생논문경진대회 우수논문상</h3><p>Multimodal AI Consistency-based Content Verification System.</p></div><time>Jun 2026</time></article>
+          <article class="award-row featured"><span class="award-badge">Grand Prize<small>대상</small></span><div class="award-main"><h3>SW-Centered University Joint AI Hackathon / SW중심대학 공동 AI 해커톤</h3><p>DiNuri, OCR-LLM document understanding service for seniors.</p></div><time>Oct 2025</time></article>
+          <article class="award-row featured"><span class="award-badge">President<small>총장상</small></span><div class="award-main"><h3>2025 AI-Powered SW Imagination Company Excellence Award / SW상상기업 최우수상</h3><p>Image Interceptor, real-time harmful image detection system.</p></div><time>Oct 2025</time></article>
+          <article class="award-row"><span class="award-badge">Excellence<small>우수상</small></span><div class="award-main"><h3>khuthon 2026 Excellence Award / khuthon 2026 우수상</h3><p>TrenDo.</p></div><time>May 2026</time></article>
+          <article class="award-row"><span class="award-badge">Representative<small>대표</small></span><div class="award-main"><h3>IITP Digital Young Talent Representative / IITP 디지털 청년인재 대표 선정</h3><p>Selected as a representative young AI/SW talent.</p></div><time>Jan 2026</time></article>
+          <article class="award-row"><span class="award-badge">Special<small>특별상</small></span><div class="award-main"><h3>LIG Nex1 Special Award / LIG넥스원 특별상</h3><p>Recognized through the AI-Powered SW Imagination Company program.</p></div><time>Oct 2025</time></article>
+          <article class="award-row"><span class="award-badge">Commendation<small>표창</small></span><div class="award-main"><h3>Suwon Special City Mayor Commendation / 수원특례시장 표창</h3><p>Contribution to a public carbon monitoring support project.</p></div><time>Jul 2025</time></article>
+          <article class="award-row"><span class="award-badge">Global</span><div class="award-main"><h3>NASA International Space Apps Challenge Galactic Problem Solver</h3><p>AIRBENDER.</p></div><time>Oct 2025</time></article>
+          <article class="award-row"><span class="award-badge">Director<small>단장상</small></span><div class="award-main"><h3>2025 AI-Powered SW Imagination Company Encouragement Award / SW상상기업 장려상</h3><p>Smooth Talk.</p></div><time>Oct 2025</time></article>
+          <article class="award-row"><span class="award-badge">Silver<small>은상</small></span><div class="award-main"><h3>Basic Capstone Design Competition / 기초캡스톤디자인 경진대회</h3><p>Silver Prize for a team-based software design project.</p></div><time>Jul 2025</time></article>
+          <article class="award-row"><span class="award-badge">Merit<small>성적장학</small></span><div class="award-main"><h3>Academic Merit Scholarship / 성적장학금</h3><p>Received academic merit scholarships five times.</p></div><time>5 times</time></article>
         </div>
       </section>
 
-      <section id="global" class="section">
-        <h2>Global Experience</h2>
+      <section id="global" class="section secondary-section">
+        <div class="section-heading compact"><div><p class="section-index">06</p><h2>Global Experience</h2></div></div>
         <ol class="global-list">
-          <li>
-            <span class="global-index">1</span>
-            <div>
-              <img class="global-logo seal" src="assets/logos/ucsd-seal.svg" alt="UC San Diego seal" />
-              <div class="global-copy">
-                <h3>UC San Diego Qualcomm Institute</h3>
-                <p><em>AI Entrepreneurship Program, 2025</em></p>
-                <p>Built a GCP-based machine learning model for credit-card fraud detection.</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <span class="global-index">2</span>
-            <div>
-              <img class="global-logo wide" src="assets/logos/ces-logo-color.png" alt="CES logo" />
-              <div class="global-copy">
-                <h3>CES 2026 & Silicon Valley Program</h3>
-                <p><em>Global technology industry field program, 2026</em></p>
-                <p>Explored how AI infrastructure, devices, and cloud services connect in industry.</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <span class="global-index">3</span>
-            <div>
-              <img
-                class="global-logo"
-                src="assets/projects/pathobrainseq_logo.jpg"
-                alt="PathoBrainSeq logo"
-              />
-              <div class="global-copy">
-                <h3>PathoBrainSeq Research Intern</h3>
-                <p><em>Multi-omics AI research for dementia prediction, 2026</em></p>
-                <p>Worked on AI research using RNA-DNA multi-omics biomedical data.</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <span class="global-index">4</span>
-            <div>
-              <div class="global-copy">
-                <h3>Medical OS Open-source Project</h3>
-                <p><em>Medical Vision AI / Open-source Collaboration</em></p>
-                <p>Invited to participate in an open-source medical OS collaboration.</p>
-              </div>
-            </div>
-          </li>
+          <li><span class="global-index">1</span><div><img class="global-logo seal" src="assets/logos/ucsd-seal.svg" alt="UC San Diego seal" loading="lazy" /><div class="global-copy"><h3>UC San Diego Qualcomm Institute</h3><p><em>AI Entrepreneurship Program, 2025</em></p><p>Built a GCP-based machine learning model for credit-card fraud detection.</p></div></div></li>
+          <li><span class="global-index">2</span><div><img class="global-logo wide" src="assets/logos/ces-logo-color.png" alt="CES logo" loading="lazy" /><div class="global-copy"><h3>CES 2026 &amp; Silicon Valley Program</h3><p><em>Global technology industry field program, 2026</em></p><p>Explored how AI infrastructure, devices, and cloud services connect in industry.</p></div></div></li>
+          <li><span class="global-index">3</span><div><img class="global-logo" src="assets/projects/pathobrainseq_logo.jpg" alt="PathoBrainSeq logo" loading="lazy" /><div class="global-copy"><h3>PathoBrainSeq Research Intern</h3><p><em>Multi-omics AI research for dementia prediction, 2026</em></p><p>Worked on AI research using RNA-DNA multi-omics biomedical data.</p></div></div></li>
+          <li><span class="global-index">4</span><div><div class="global-copy"><h3>Medical OS Open-source Project</h3><p><em>Medical Vision AI / Open-source Collaboration</em></p><p>Invited to participate in an open-source medical OS collaboration.</p></div></div></li>
         </ol>
       </section>
 
-      <section id="ai-recommender" class="section recommender-section">
-        <h2>AI Project Recommender</h2>
-        <div class="recommender-box">
-          <div>
-            <h3>Chatbot & VLM Project Recommendations</h3>
-            <p>
-              An interactive Streamlit app that recommends related projects through chatbot
-              interaction and VLM-oriented portfolio exploration.
-            </p>
-          </div>
-          <a class="button-link" href="https://jeongahyoon.streamlit.app/" target="_blank" rel="noreferrer">
-            Try Recommender
-          </a>
-        </div>
+      <section id="news" class="section secondary-section split-secondary">
+        <div><h2>Recent News</h2><ul class="news-list">
+          <li><time>Jun 2026</time><span>KIIT Excellent Paper Award for <em>Multimodal AI Consistency-based Content Verification System</em>.</span></li>
+          <li><time>Jun 2026</time><span>2026 Advanced Capstone Design Excellence Award with I See You.</span></li>
+          <li><time>May 2026</time><span>Selected as a 2026-1 Kyonggi CEO Forum Scholar.</span></li>
+          <li><time>May 2026</time><a class="news-link" href="https://thon.khlug.org/about/2026" target="_blank" rel="noreferrer">khuthon 2026 Excellence Award with TrenDo.</a></li>
+          <li><time>Jan 2026</time><a class="news-link" href="https://www.youtube.com/shorts/GpeTxVVRZ6U" target="_blank" rel="noreferrer">Selected as an IITP Digital Young Talent representative.</a></li>
+          <li><time>Oct 2025</time><a class="news-link" href="https://www.veritas-a.com/news/articleView.html?idxno=578950" target="_blank" rel="noreferrer">Grand Prize for DiNuri.</a></li>
+        </ul></div>
+        <div id="ai-recommender" class="recommender-box"><div><p class="case-label">Secondary Portfolio Tool</p><h2>AI Project Recommender</h2><p>Chatbot and VLM-oriented project exploration through an interactive Streamlit app.</p></div><a class="button-link" href="https://jeongahyoon.streamlit.app/" target="_blank" rel="noreferrer">Try Recommender ↗</a></div>
       </section>
     </main>
 
     <div id="site-search" class="search-panel" hidden>
       <div class="search-backdrop" data-close-search></div>
       <div class="search-dialog" role="dialog" aria-modal="true" aria-label="Search site">
-        <div class="search-field">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <circle cx="11" cy="11" r="7"></circle>
-            <path d="m16.5 16.5 4 4"></path>
-          </svg>
-          <input id="search-input" type="search" placeholder="Search" autocomplete="off" />
-          <button type="button" data-close-search aria-label="Close search">×</button>
-        </div>
+        <div class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16.5 16.5 4 4"></path></svg><input id="search-input" type="search" placeholder="Search research, projects, skills, or awards" autocomplete="off" /><button type="button" data-close-search aria-label="Close search">×</button></div>
         <div id="search-results" class="search-results"></div>
       </div>
     </div>
 
-    <footer class="footer">
-      <span>© 2026 Jeong-Ah Yoon</span>
-      <span>Built for GitHub Pages</span>
-    </footer>
+    <footer class="footer"><span>© 2026 Jeong-Ah Yoon</span><span>Vision AI · Data · Evaluation · Multimodal · 3D Vision</span><a href="#top">Back to top ↑</a></footer>
     <script src="script.js"></script>
   </body>
 </html>
