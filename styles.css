@@ -116,8 +116,8 @@ time { color: var(--muted); font-size: 12px; white-space: nowrap; }
 .research-case + .research-case { margin-top: 24px; }
 .research-primary { padding: clamp(25px, 4vw, 45px); box-shadow: 0 12px 35px rgba(27, 53, 64, 0.04); }
 .case-header { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 22px; align-items: center; margin-bottom: 32px; }
+.case-header.no-logo { grid-template-columns: minmax(0, 1fr); }
 .research-logo { width: 72px; height: 72px; border-radius: 7px; background: #fff; object-fit: contain; padding: 5px; }
-.research-icon { display: grid; place-items: center; border: 1px solid #cbdde4; background: linear-gradient(145deg, #f7fbfc, #eef6f9); color: #3c7184; font-size: 19px; font-weight: 850; letter-spacing: 0.02em; }
 .case-label { margin-bottom: 7px; font-size: 9px; }
 .case-header h3 { font-size: clamp(25px, 3vw, 36px); }
 .case-header .meta { margin: 7px 0 0; }
