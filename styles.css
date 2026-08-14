@@ -77,10 +77,10 @@ button, summary, a { -webkit-tap-highlight-color: transparent; }
 .intro-text { position: relative; z-index: 1; max-width: 650px; }
 .intro-visual { min-width: 0; margin: 0; }
 .intro-visual img {
-  width: 116%;
+  width: 130%;
   height: auto;
   max-width: none;
-  margin-left: -8%;
+  margin-left: -22%;
   filter: brightness(1.025) saturate(0.92) contrast(1.015);
   mix-blend-mode: multiply;
   -webkit-mask-image: radial-gradient(ellipse 78% 76% at 51% 50%, #000 66%, rgba(0, 0, 0, 0.88) 78%, transparent 100%);
